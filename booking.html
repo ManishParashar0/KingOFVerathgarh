@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>king of t-shirt</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+
+body {
+  overflow-x: hidden;
+
+}
+.card {
+  padding: 30px 40px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border: none !important;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+}
+.blue-text {
+  color: #00bcd4;
+}
+.form-control-label {
+  margin-bottom: 0;
+}
+input,
+textarea,
+button {
+  padding: 8px 15px;
+  border-radius: 5px !important;
+  margin: 5px 0px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  font-size: 18px !important;
+  font-weight: 300;
+}
+input:focus,
+textarea:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 1px solid #00bcd4;
+  outline-width: 0;
+  font-weight: 400;
+}
+.btn-block {
+  text-transform: uppercase;
+  font-size: 15px !important;
+  font-weight: 400;
+  height: 43px;
+  cursor: pointer;
+}
+.btn-block:hover {
+  color: #fff !important;
+}
+button:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  outline-width: 0;
+}
+
+
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <nav>
+          <input type="checkbox" id="show-search">
+          <input type="checkbox" id="show-menu">
+          <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+          <div class="content">
+            <div class="logo"><a href="kingp.jpg" class="animate-charcter">King of Verathgarh</a></div>
+            <ul class="links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li>
+                <a href="#" class="desktop-link">Know more </a>
+                <input type="checkbox" id="show-features">
+                <label for="show-features">Features</label>
+                <ul>
+                  <li><a href="#">About Members</a></li>
+                  <li><a href="#">About village</a></li>
+                  <li><a href="#">business links</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" class="desktop-link">Media</a>
+                <input type="checkbox" id="show-services">
+                <label for="show-services">Services</label>
+                <ul>
+                  <li><a href="Youtube.html">Youtube'Videos</a></li>
+                  <li><a href="#">Reels</a></li>
+                  <li><a href="#">Vlogs</a></li>
+                  <li>
+                    <a href="gallery.html" class="desktop-link">Gallery</a>
+                    <input type="checkbox" id="show-items">
+                    <label for="show-items">More Items</label>
+                    <!-- <ul>
+                          <li><a href="#">Shop's</a></li>
+                          <li><a href="#"></a></li>
+                          <li><a href="#">Sub Menu 3</a></li>
+                        </ul> -->
+                  </li>
+                </ul>
+              </li>
+              <li><a href="#">Feedback</a></li>
+            </ul>
+          </div>
+          <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+          <form action="#" class="search-box">
+            <input type="text" placeholder="Type Something to Search..." required>
+            <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+          </form>
+        </nav>
+      </div>
+
+
+
+
+    <div class="container-fluid px-1 py-5 mx-auto">
+        <div class="row d-flex justify-content-center">
+            <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+                <h3></h3>
+                <p class="blue-text"><br> </p>
+                <div class="card">
+                    <h5 class="text-center mb-4">king of Verathgarh T-shirt</h5>
+                    <form class="form-card" name="submit-to-google-sheet">
+                        <div class="row justify-content-between text-left">
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">First name<span class="text-danger"> *</span></label> <input type="text" id="fname" name="fname" placeholder="Enter your first name"> </div>
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Last name<span class="text-danger"> *</span></label> <input type="text" id="lname" name="lname" placeholder="Enter your last name"> </div>
+                        </div>
+                        <div class="row justify-content-between text-left">
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">email<span class="text-danger"> *</span></label> <input type="text" id="email" name="email" placeholder=""> </div>
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Phone number<span class="text-danger"> *</span></label> <input type="text" id="mob" name="mob" placeholder=""> </div>
+                        
+                        </div>
+                        <div class="row justify-content-between text-left">
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">size xl,xxl<span class="text-danger"> *</span></label> <input type="text" id="job" name="size" placeholder=""> </div>
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">pin-code<span class="text-danger"> *</span></label> <input type="text" id="pincode" name="pin-code" placeholder=""> </div>
+                        </div>
+                        <div class="row justify-content-between text-left">
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">village<span class="text-danger"> *</span></label> <input type="text" id="fname" name="village" placeholder="Enter your village name"> </div>
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">state name<span class="text-danger"> *</span></label> <input type="text" id="lname" name="state" placeholder="Enter your state name"> </div>
+                        </div>
+                        
+                        <input type="hidden" id="ans" name="ans">
+
+                        <div class="row justify-content-end">
+                            <div class="form-group col-sm-6"> <button type="submit" class="btn-block btn btn-primary">click to buy</button> </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+    <script>
+
+        let url = new URL(window.location)
+        let params = new URLSearchParams(url.search)
+
+        let product = params.get('product')
+
+        if(params.size == 0){
+
+            window.open('index.html' , '_self')
+
+        }
+
+        let description = document.getElementById('ans')
+        description.value = product
+
+
+        
+
+          const scriptURL = 'https://script.google.com/macros/s/AKfycbz-j1wT_akD27A2fDUVPec-uppNuS0ket8UB9ty2iby5Bj3LZsOsYRQ8GKUDMQYcTU/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{
+
+        form.reset()
+        window.open('index.html' , '_self')
+
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+    </script>
+
+</body>
+</html>
